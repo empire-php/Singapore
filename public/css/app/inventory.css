@@ -1,0 +1,39 @@
+.section {
+    width: 100%;
+    background-color: #FFF;
+    padding: 21px;
+    margin-bottom: 30px;
+}
+.section_title {
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+    margin-bottom: 28px;
+    width: 200px;
+}
+
+.add_new{
+    margin-bottom: 34px;
+}
+
+.ui-autocomplete{
+    z-index: 2000;
+}
+.ui-widget-content{
+    display: none;
+}
+.ui-menu-item{
+    list-style-type: none;
+    margin-left: -40px;
+    width: 300px;
+    border: 1px solid #CCC;
+    cursor: pointer;
+    background-color: #FFF;
+}
+
+.ui-menu-item div{
+    padding: 5px;
+    border-bottom: 1px #EEE;
+}
+.ui-menu-item div:hover{
+    background-color: #CCC;
+}

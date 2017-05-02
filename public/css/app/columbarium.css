@@ -1,0 +1,116 @@
+.section {
+    width: 100%;
+    background-color: #FFF;
+    padding: 21px;
+    margin-bottom: 30px;
+}
+.section_title {
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+    margin-bottom: 28px;
+    width: 96%;
+    margin-top: 100px;
+}
+
+.section_content table{
+    
+}
+
+.section_content td{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.bordered_table{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.bordered_table th{
+    font-weight: bold;
+    border: 1px solid #CCC;
+    padding: 10px;
+    text-align: center;
+}
+.bordered_table td{
+    border: 1px solid #CCC;
+    padding: 10px;
+}
+
+.bordered_table td.no_border{
+    border: 0px;
+}
+
+#order_section{
+    float: right;
+}
+
+.customer_details_title{
+    margin-top: 120px;
+}
+.customer_details_content{
+    
+}
+
+.ui-autocomplete{
+    z-index: 2000;
+}
+.ui-widget-content{
+    display: none;
+}
+.ui-menu-item{
+    list-style-type: none;
+    margin-left: -40px;
+    width: 300px;
+    border: 1px solid #CCC;
+    cursor: pointer;
+    background-color: #FFF;
+}
+
+.ui-menu-item div{
+    padding: 5px;
+    border-bottom: 1px #EEE;
+}
+.ui-menu-item div:hover{
+    background-color: #CCC;
+}
+
+
+
+.signature_box canvas{
+    border: 1px solid;
+    background-color: #fff;
+}
+
+.signature_box label,
+.signature_box input[type=file]{
+    display:none;
+}
+
+.signature_box{
+    display:none;
+    width: 350px;
+    background-color: #CCC;
+    border: 1px solid #000;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+#box1, #box2{
+    cursor: pointer; 
+    border:1px solid;
+    width: 230px;
+    height: 50px;
+}
+
+.ui-menu-item,
+#autocomplete_close{
+    list-style-type: none;
+    margin-left: -40px;
+    width: 300px;
+    border: 1px solid #CCC;
+    cursor: pointer;
+    background-color: #FFF;
+}
+#autocomplete_close{
+    padding: 5px;
+}

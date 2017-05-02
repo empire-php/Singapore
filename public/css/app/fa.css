@@ -1,0 +1,283 @@
+
+#checklist {
+    margin: 0px;
+    padding: 0px;
+    width:30%;
+    float: left;
+    background-color: #FFF;
+}
+#checklist th{
+    text-align: center;
+    height: 60px;
+}
+#checklist td {
+    padding: 2px;
+    font-size: 13px;
+}
+#checklist td input,
+#checklist td textarea {
+    width: 81%;
+}
+
+#checklist td textarea {
+    vertical-align: top;
+}
+#checklist .remarks_td {
+    border-bottom: 2px solid;
+}
+#checklist td.check_td{
+    padding: 10px;
+    border-bottom: 2px solid;
+    width: 44px;
+    text-align: center;
+    cursor: pointer;
+}
+#checklist td.check_td img{
+    width:20px;
+    display:none;
+}
+#checklist td.check_td input[type=checkbox]{
+    display:none;
+}
+#checklist .item_name{
+    color: red;
+}
+
+#fa_form {
+    float: left;
+    width: 68%;
+    margin-left: 2%;
+    border: 1px solid #000;
+    background-color: #FFF;
+}
+
+#fa_form #number{
+    width: 100%;
+    text-align: right;
+    padding-right: 19px;
+    margin-top: 15px;
+}
+
+#fa_form #deceased_details,
+#fa_form #point_contact,
+#fa_form #funeral_day,
+#fa_form #removal,
+#fa_form .fa_section{
+    width: 97%;
+    text-align: left;
+    padding-left: 3%;
+}
+#fa_form #deceased_details .form_title,
+#fa_form #point_contact .form_title,
+#fa_form #funeral_day .form_title,
+#fa_form #removal .form_title,
+#fa_form .fa_section .form_title {
+    border-bottom: 1px solid #000;
+    padding-left: 5px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+#fa_form #deceased_details .form_content,
+#fa_form #point_contact .form_content,
+#fa_form #funeral_day .form_content,
+#fa_form #removal .form_content,
+#fa_form .fa_section .form_content {
+    margin-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
+#deceased_details .form-control,
+#point_contact .form-control,
+#funeral_day .form-control,
+#removal .form-control,
+#removal .fa_section .form-control{
+    width: 170px;
+}
+
+#f2_remarks_container .form-control{
+    width: 30%;
+}
+
+.ui-menu-item,
+#autocomplete_close{
+    list-style-type: none;
+    margin-left: -40px;
+    width: 300px;
+    border: 1px solid #CCC;
+    cursor: pointer;
+    background-color: #FFF;
+}
+#autocomplete_close{
+    padding: 5px;
+}
+.ui-menu-item div{
+    padding: 5px;
+    border-bottom: 1px #EEE;
+}
+.ui-menu-item div:hover{
+    background-color: #CCC;
+}
+
+.signature_box canvas{
+    border: 1px solid;
+    background-color: #fff;
+}
+
+.signature_box label,
+.signature_box input[type=file]{
+    display:none;
+}
+
+.signature_box{
+    display:none;
+    width: 350px;
+    background-color: #CCC;
+    border: 1px solid #000;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+#box1, #box2{
+    cursor: pointer; 
+    border:1px solid;
+    width: 100px;
+    height: 50px;
+
+}
+
+.dialog_container {
+    width: 450px;
+    height: 120px;
+    border: 1px solid #000;
+    background-color: #FFF;
+    position: absolute;
+    display: none;
+}
+
+.dialog_container .title{
+    background-color: #ccc;
+    padding: 4px;
+}
+
+.dialog_container .container{
+    padding-left: 10px;
+    padding-top: 29px;
+}
+.dialog_container .close_container{
+    width: 50px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.dialog_container .close_container a{
+    color: #000;
+}
+.dialog_container .close_container a:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+/*
+td.table_th_view_column {
+    position: relative;
+}
+.table_th_view_column:after{
+    opacity: 0 !important;
+}
+.table_td_view_column a{
+    padding-left: 20px;
+}
+.table_td_view_column a:before{
+    position: relative;
+    display: block;
+    font-family: 'Glyphicons Halflings';
+    opacity: 0.5;
+    content: "\e032";
+    float: left;
+    top: 10px;
+}*/
+
+.price_col{
+    width: 100px;
+}
+
+.price_col div{
+    float: left;
+    width: 10px;
+    line-height: 32px;
+}
+
+.price_col input{
+    width: 100%;
+    float: left;
+}
+
+.discount_popup_table{
+    padding-left: 5px;
+}
+.discount_popup_table td{
+    padding: 5px;
+}
+
+#package_listing .item{
+    border: 1px solid #000;
+    border-radius: 6px;
+    float: left;
+    width: 140px;
+    margin-top: 12px;
+    margin-right: 13px;
+    padding: 11px;
+    box-shadow: 4px 3px 11px #CCC;
+    text-align: center;
+    cursor: pointer;
+}
+
+#package_listing .item .name{
+    font-style: italic;
+    font-size: 15px;
+}
+#package_listing .item .promo_price{
+    font-size: 29px;
+    font-weight: bold;
+    line-height: 37px;
+}
+
+#package_listing .pack_title,
+.package_items_listing .item_title{
+    border-bottom: 1px solid #CCC;
+    padding-left: 5px;
+    font-weight: bold;
+    padding-top: 30px;
+    font-style: italic;
+    color: #3498db;
+}
+
+#open_packages{
+    display:none;
+}
+
+.pack_group_title{
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 18px;
+    color: #6e7882;
+}
+
+.product_box{
+    text-align: center;
+    width: 100%;
+    border: 2px solid #bbbbbb;
+    padding: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#package_listing .selected,
+.package_items_listing .selected{
+    border-color: red;
+}

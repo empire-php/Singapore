@@ -1,0 +1,107 @@
+#discount_settings th,#discount_settings td{
+    padding: 10px;
+}
+#discount_settings table{
+    margin-bottom: 10px;
+}
+
+#edit_package_container{
+    display:none;
+}
+
+#accordion .panel-heading {
+    padding: 0;
+}
+
+#accordion .panel-title>a {
+    display: block;
+    /*padding: 0.4em 0.6em;*/
+    outline: none;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#accordion .panel-title>a.accordion-toggle::before, #accordion a[data-toggle="collapse"]::before
+{
+    content: "\e113 ";
+    float: left;
+    font-family: 'Glyphicons Halflings';
+}
+
+#accordion .panel-title>a.accordion-toggle.collapsed::before, #accordion a.collapsed[data-toggle="collapse"]::before
+{
+    content: "\e114 ";
+}
+#accordion.panel-group .panel{
+    margin-top: 5px;
+}
+#accordion .actions_div > a {
+    font-size: 14px;
+    margin-right: 15px;
+}
+#accordion .actions_div > a.exit-btn {
+    color:#dd4b39;
+}
+#accordion .remove_field.exit-btn{
+    color:#dd4b39;
+    margin-left:7px;
+    float: left;
+}
+
+a[id*='panelLabel'] {
+    color: #0a0a0a;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.suite-table {
+    table-layout: fixed;
+    width:100%;
+    min-width: 600px;
+
+}
+
+.suite-table td {
+    border : 1px solid #aeaeae !important;
+    word-wrap:break-word;
+    text-align:center;
+    cursor: pointer;
+}
+
+.suite-table tr:first-child, .suite-table td:nth-child(2), .suite-table td:last-child, .suite-table td:nth-child(1) {
+    background-color: #494949;
+    color: #fff;
+    border-color: #3a3a3a;
+}
+.suite-table tr:first-child > td:nth-child(2), .suite-table tr:first-child > td:last-child, .suite-table tr:first-child > td:nth-child(1)
+{
+    background-color: #fff;
+    border: 0px solid #fff !important;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    vertical-align: middle;
+}
+
+.remove_ctg_tr, .remove_ctg_td{
+    color: red;
+}
+
+.remove_ctg_tr:hover, .remove_ctg_td:hover{
+    color: #840000;
+}
+
+.edit_td_text, .edit_tr_text {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.edit_td_text:hover, .edit_tr_text:hover {
+    color: #e6ff85;
+    text-decoration: none;
+}
+
+.btn {
+    white-space: normal;
+}

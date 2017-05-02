@@ -1,0 +1,86 @@
+.item2select{
+    width: 172px;
+    float: left;
+    margin-right: 25px;
+    margin-top: 10px;
+    text-align: center;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.img_container{
+    width: 172px;
+    height: 150px;
+}
+.popup_view{
+    width: 135px;
+    margin-right: 20px;
+}
+.popup_view .img_container{
+    width: 100px;
+    height: 100px;
+}
+.img_container img{
+    max-height: 100%;
+    width: 100%;
+    margin: auto;
+    display:block;
+}
+
+.popup_view table{
+    height: 182px;
+}
+
+.item2select .img_container{
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+.item2select .item_btn{
+    font-weight: bold;
+    font-style: italic;
+    height: 29px;
+    font-size: 11px;
+}
+
+.filter_zone,
+.search_zone{
+    float: left;
+    border: 1px solid #CCC;
+    padding: 14px;
+    border-radius: 7px;
+}
+.filter_zone table{
+    border-spacing: 6px;
+    border-collapse: separate;
+}
+.search_zone{
+    margin-left: 32px;
+    width: 374px;
+    padding: 54px;
+}
+
+.search_zone input[type=text]{
+    width: 200px;
+    float: left;
+    margin-right: 15px;
+}
+
+#order_form_tbl td{
+    padding: 3px;
+}
+
+.capacity_filter_text{
+    float: left;
+    padding-right: 5px;
+    margin-top: 6px;
+}
+
+.capacity_filter_input{
+    width: 200px;
+    float: left;
+}
+
+.selected_item{
+    border: 2px solid red;
+}

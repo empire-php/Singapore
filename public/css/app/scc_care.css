@@ -1,0 +1,38 @@
+#order_form input,
+#order_form select{
+    width: 170px;
+}
+
+#order_form table {
+    width: 60%;
+}
+
+#order_form .space{
+    height: 60px;
+}
+
+#order_info{
+    float: right;
+    width: 350px;
+}
+
+#products_table input{
+    width: 100%;
+}
+
+.signature_container table{
+    width: 500px !important;
+    margin-left: 33%;
+}
+
+.signature_container table td{
+    padding: 10px;
+}
+
+.signature_container #box1,.signature_container #box2, .signature_container #box3 {
+    width: 210px;
+    height: 72px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid;
+}
